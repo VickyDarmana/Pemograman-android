@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GameTube</div>
+        <div class="search-bar">
+            <div class="search-container">
+                <input type="text" id="search" name="search" placeholder="Cari Video.....">
+                <button type="button" class="blue-button">Search</button>
+            </div>
+        </div>
+        <div class="login-button">
+            <button>Login</button>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="sidebar">
+            <h2>Browse Videos</h2>
+            <div class="video-category">
+                <img src="main-menu.png" alt="Main Menu Image">
+                <p>Trailer</p>
+            </div>
+            <div class="video-category">
+                <p>PC</p>
+            </div>
+            <div class="video-category">
+                <p>PlayStation</p>
+            </div>
+            <div class="video-category">
+                <p>WII</p>
+            </div>
+            <div class="video-category">
+                <p>XBOX</p>
+            </div>
+        </div>
+
+        <div class="login-box">
+            <h2>Login to GameTube</h2>
+            <p>
+            <form action="mainpage.html">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="">
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="">
+                </div>
+                
+                <div class="remember-group">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me?</label>
+                    </div>
+                </div>
+                
+                <div class="buttons">
+                    <input type="reset" value="Reset" class="small-button">
+                    <input type="submit" value="Submit" class="blue-button">
+                </div>
+                
+            </form>
+        </div>
+
+        <div class="signup-box">
+            <h2>Do not have an account yet?</h2>
+            <p>Want to share videos to our community? Discussing an interesting video? Come and join our 5.000.000(and growing) community! We would <b>love</b> to have you join and enrich our community!</p>
+            <form action="mainpage.html">
+                <div class="buttons">
+                    <input type="submit" value="Join Now" class="small-button">
+                </div>
+            </form>
+        </div> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+.col1, .col2, .col3, .col4,
+.col5, .col6, .col7, .col8,
+.col9, .col10, .col11, .col12 {
+    display: block;
+    float: left;
+    margin:0 10px 0 10px;
+    padding: 0;
+}
+.col1 {
+    width: 80px;
+    }
+.col2 {
+    width: 160px;
+    }
+.col3 {
+    width: 240px;
+    }
+.col4 {
+    width: 320px;
+    }
+.col5 {
+    width: 400px;
+    }
+.col6 {
+    width: 480px;
+    }
+.col7 {
+    width: 560px;
+    }
+.col8 {
+    width: 640px;
+    }
+.col9 {
+    width: 720px;
+    }
+.col10 {
+    width: 800px;
+    }
+.col11 {
+    width: 880px;
+    }
+.col12 {
+    width: 960px;
+    box-sizing : border-box;
+    }
+
+body{
+    margin: 0;
+}
+
+h1{
+    margin-left: 10px;
+    margin-top: 15px;
+    color: blue;
+    font-size: 20pt;
+}
+.bar{
+    margin-left: 20px;
+    border: 1.5px solid black;
+    margin-top: 15px;
+    height: 30px;
+    background-color: white;
+}
+.bar p{
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.search{
+    border: 1.5px solid black;
+    margin-left: -10px;
+    margin-top: 15px;
+    height: 30px;
+    background-color: black;
+}
+.search p{
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+.login{
+    height: 30px;
+    border: 1.5px solid black;
+    margin-top: -50px;
+    margin-left: 1100px;
+    background-color: black;
+}
+.login{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.video{
+    margin-left: -20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.options{
+    
+    margin-left: 850px;
+    margin-top: -250px;
+}
+.options p{
+    font-size: 12pt;
+    font-weight: none;
+}
+.options2{
+
+    margin-left: 850px;
+    margin-top: 0px;
+}
+.options2 p{
+    font-size: 12pt;
+    font-weight: none;
+}
+.line{
+    margin-left: 850px;
+    width: 20%;
+}
+h2{
+    margin-top: -28px;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.views{
+    margin-top: -30px;
+}
+.tambahan {
+    margin-top: -45px;
+    margin-left: 600px;
+}
+.garis{
+    width: 100%;
+}
+.detail{
+    margin-right: 20px;
+}
+.options3 a{
+    font-size: 10pt;
+    color: black;
+    text-decoration: none;
+}
+.options3 li{
+    list-style-type: none;
+    margin: 20px;
+    display: inline;
+}
+.options4 a{
+    font-size: 10pt;
+    color: rgb(181, 181, 181);
+    text-decoration: none;
+}
+.options4 li{
+    list-style-type: none;
+    margin: 20px;
+    display: inline;
+}
+.options4{
+    margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+.logo {
+    margin-right: 20px;
+    font-size: large;
+    font-size: bold;
+}
+
+.search-bar {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    margin: 0;
+    padding: 8px;
+}
+
+.search-bar button {
+    padding: 8px;
+    background-color: rgb(107, 107, 114);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button {
+    color: blue;
+    margin-left: 20px;
+}
+
+header {
+    background-color: rgb(217, 217, 217);
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

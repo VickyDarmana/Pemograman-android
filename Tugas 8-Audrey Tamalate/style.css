@@ -1,0 +1,167 @@
+.col1, .col2, .col3, .col4,
+.col5, .col6, .col7, .col8,
+.col9, .col10, .col11, .col12 {
+    display: block;
+    float: left;
+    margin:0 10px 0 10px;
+    padding: 0;
+}
+.col1 {
+    width: 80px;
+    }
+.col2 {
+    width: 160px;
+    }
+.col3 {
+    width: 240px;
+    }
+.col4 {
+    width: 320px;
+    }
+.col5 {
+    width: 400px;
+    }
+.col6 {
+    width: 480px;
+    }
+.col7 {
+    width: 560px;
+    }
+.col8 {
+    width: 640px;
+    }
+.col9 {
+    width: 720px;
+    }
+.col10 {
+    width: 800px;
+    }
+.col11 {
+    width: 880px;
+    }
+.col12 {
+    width: 960px;
+    box-sizing : border-box;
+    }
+
+body{
+    background-color: rgb(216, 215, 215);
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+.header{
+    color: red;
+}
+
+.navigation{
+    background-color: red;
+}
+.navigation img{
+    margin-left: 100px;
+}
+.option{
+    margin-top: -44px;
+    margin-left: 250px;
+}
+.option li{
+    list-style-type: none;
+    margin: 20px;
+    display: inline;
+}
+
+.option a{
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;
+}
+
+.isi{
+    background-color: white;
+}
+
+h1{
+    font-size: 16pt;
+    margin-left: 140px;
+    margin-top: -120px;
+}
+
+.pilihan{
+    margin-left: 480px;
+    margin-top: -130px;
+}
+.pilihan li{
+    list-style-type: none;
+    margin: 10px;
+    display: inline;
+}
+
+.pilihan a{
+    font-size: 12pt;
+    text-decoration: none;
+    color: blue;
+}
+
+.garis{
+    margin-top: -100px;
+    margin-left: 140px;
+    height: 2px;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    margin-top: -80px;
+    margin-left: 140px;
+    font-size: 14pt;
+}
+
+.penjelasan p{
+    margin-left: 140px;
+    margin-top: -45px;
+}
+
+h3,h4{
+    font-size: 12pt;
+    color: red;
+}
+
+.nowplaying p{
+    margin-top: -10px;
+}
+.audio audio{
+    margin-left: -10px;
+    width: 900px;
+    align-items: center;
+}
+
+.tracklist p{
+    margin-top: -15px;
+}
+
+.genapkiri, .genapkanan{
+    background-color: rgb(255, 186, 186);
+}
+.genapkiri{
+    border-right: 0px;
+}
+.kanan, .genapkanan{
+    text-align: right;
+}
+.footer{
+    font-size: 9pt;
+    margin-top: 0px;
+    margin: 0px;
+}
+table {
+    border-collapse: collapse;
+    width: 480px;
+}
+
+td {
+    padding: 8px;
+}
+
+

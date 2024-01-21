@@ -1,0 +1,238 @@
+.col1, .col2, .col3, .col4,
+.col5, .col6, .col7, .col8,
+.col9, .col10, .col11, .col12 {
+    display: block;
+    float: left;
+    margin:0 10px 0 10px;
+    padding: 0;
+}
+.col1 {
+    width: 60px;
+   }
+   .col2 {
+    width: 140px;
+   }
+   .col3 {
+    width: 220px;
+   }
+   .col4 {
+    width: 300px;
+   }
+   .col5 {
+    width: 380px;
+   }
+   .col6 {
+    width: 460px;
+   }
+   .col7 {
+    width: 540px;
+   }
+   .col8 {
+    width: 620px;
+   }
+   .col9 {
+    width: 700px;
+   }
+   .col10 {
+    width: 780px;
+   }
+   .col11 {
+    width: 860px;
+   }
+   .col12 {
+    width: 940px;
+   }
+
+@font-face {
+    font-family: 'Blackbird';
+    src: url(Blackbird.otf);
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+   }
+
+body{
+    background: url(background.png) 50% 0% no-repeat, 
+                url(noisy_grid.png) 0% 100% repeat;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Blackbird';
+    font-weight: bold;
+    float: left;
+    margin: 8px 0 0 10px;
+}
+
+.bar {
+    background-color: white;
+}
+
+.bar ul {
+    float: right;  
+}
+
+.bar li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.bar a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Blackbird';
+    font-size: 40pt;
+    margin: 0;
+    color: yellow;
+    text-shadow: 2pt;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.title {
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    font-family: 'Blackbird';
+    font-size: 18pt;
+    margin: 0;
+    color: yellow;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0)
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-top: 150px;
+    border: 2px solid white;
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.button p{
+    color: white;
+    font-weight: bold;
+    font-size: 8pt;
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
+}
+.kutip {
+    float: left;
+    margin-top: -120px;
+    margin-left: 340px;
+    padding: 10px;
+    text-align: center, justify, center;
+    font-size: 30pt;
+    color: white;
+}
+.quotes { 
+    height: 140px;
+    width: 92%;
+    padding: 20px;
+    background: linear-gradient(to left, yellow, rgba(255, 255, 255, 0.507));
+    float: right;
+    margin-right: -310px;
+    margin-top: -120px;
+}
+
+.quotes p {
+    text-indent: 20px;
+    font-family: helvetica;
+    text-align: left;
+    color: black; 
+    font-size:16pt;
+    margin: 10px;
+}
+
+.author p {
+    margin-top: 8px;
+    float: right;
+    font-style: italic;
+    font-size: 11pt;
+}
+h4, h5 {
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.kotak {
+    float: left;
+    gap: 10px;
+    margin: 10px;
+    padding: 30px;
+}
+.kotaksatu, .kotakdua, .kotaktiga {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.635);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.kotaksatu p, .kotakdua p, .kotaktiga p {
+    font-family:Helvetica;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+}
+.kata p{
+    margin: 0;    
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.garis {
+    margin-top: 15px;
+    height: 2px;
+    background-color: rgba(44, 40, 36);
+}
+.logo h6{
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-family: Helvetica;
+    font-size: 15pt;
+    width: auto;
+    width: 200px;
+}
+.logo p{
+    margin-top: 0px;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-align: left;
+    width: auto;
+    font-size: 10pt;
+    padding: 0;
+    margin: 0px;
+}
+.footer {
+    margin-left: 250px;
+    margin-top: -40px;    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 12px;
+    font-weight: 550;
+}
+.footer-list{
+    color: blue;
+    font-size: 13pt;
+    margin: 0px;
+    padding: 0;
+    /* font-family: Helvetica; */
+    list-style-type: none;
+}

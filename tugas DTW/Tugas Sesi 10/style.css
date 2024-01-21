@@ -1,0 +1,145 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    background-color: rgb(202, 200, 200);
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+form {
+    margin: 0 auto;
+    width: 960px;
+}
+
+h1{
+    font-variant: small-caps;
+    margin: 10px 10px 10px 10px;
+}
+
+h2{
+    float: right;
+    margin: 10px 100px 100px 10px;
+}
+
+h3{
+    font-size: 25px;
+    color: rgb(103, 103, 103);
+}
+
+.isi{
+    background-color: white;
+}
+
+form>h1 {
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 1.5em;
+    line-height: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset>legend {
+    font-size: 1.25em;
+    line-height: 2.5em;
+}
+
+input {
+    display: inline-block;
+    vertical-align: center;
+}
+
+input:required:invalid,
+input:focus:invalid,
+input:required:valid {
+    background-position: 97.5% center;
+    background-repeat: no-repeat;
+}
+
+input:required:invalid,
+input:focus:invalid {
+    background-image: url();
+}
+
+input:required:valid {
+    background-image: url();
+}
+
+
+input[type=submit],
+input[type=reset] {
+    background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 4px 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    cursor: pointer;
+}
+
+input[type=submit]:active,
+input[type=reset]:active {
+    background: #D4D4D4;
+}
+
+input[type=submit] {
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+}
+
+input[type=submit]:active {
+    background: #0044CC;
+}
+
+select,
+input[type*=date],
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=url],
+
+input[type=password] {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 225px;
+}
+
+select:focus,
+input:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+        0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0;
+}
+
+.data {
+    margin: 10px 0;
+}
+
+.data>label {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+}
+
+#FormAction {
+    border-top: 1px solid #C5C5C5;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
+}

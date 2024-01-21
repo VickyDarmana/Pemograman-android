@@ -1,0 +1,174 @@
+.col1, .col2, .col3, .col4,
+.col5, .col6, .col7, .col8,
+.col9, .col10, .col11, .col12 {
+    display: block;
+    float: left;
+    margin:0 10px 0 10px;
+    padding: 0;
+}
+.col1 {
+    width: 80px;
+    }
+.col2 {
+    width: 160px;
+    }
+.col3 {
+    width: 240px;
+    }
+.col4 {
+    width: 320px;
+    }
+.col5 {
+    width: 400px;
+    }
+.col6 {
+    width: 480px;
+    }
+.col7 {
+    width: 560px;
+    }
+.col8 {
+    width: 640px;
+    }
+.col9 {
+    width: 720px;
+    }
+.col10 {
+    width: 800px;
+    }
+.col11 {
+    width: 880px;
+    }
+.col12 {
+    width: 960px;
+    box-sizing : border-box;
+    }
+.header{
+    height: 60px;
+    background-color: blanchedalmond;
+}
+h1{
+    margin-left: 10px;
+    margin-top: 15px;
+    color: blue;
+    font-size: 20pt;
+}
+.bar{
+    margin-left: 20px;
+    border: 1.5px solid black;
+    margin-top: 15px;
+    height: 30px;
+    background-color: white;
+}
+.bar p{
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.search{
+    border: 1.5px solid black;
+    margin-left: -10px;
+    margin-top: 15px;
+    height: 30px;
+    background-color: black;
+}
+.search p{
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+.login{
+    height: 30px;
+    border: 1.5px solid black;
+    margin-top: -50px;
+    margin-left: 1100px;
+    background-color: black;
+}
+.login p{
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.loginbox{
+    margin-top: 10px;
+    background-color: rgba(218, 218, 218, 0.79);
+    height: 200pt;
+}
+.input{
+    padding: 10px;
+    margin-left: 20px;
+}
+.input label {
+    display: inline-block;
+    width: 80px;
+    font-size: 16px;
+}
+.remember{
+    margin-left: 110px;
+}
+.resub{
+    margin-left: 320px;
+    margin-top: 30px;
+}
+.puti{
+    width: 70px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.hijau{
+    background-color: rgb(0, 219, 0);
+    border-radius: 5px;
+    width: 70px;
+    border: 1px solid rgb(0, 219, 0) ;
+}
+.input2{
+    padding: 8px;
+    margin-left: 20px;
+}
+.input2 label {
+    display: inline-block;
+    width: 80px;
+    font-size: 16px;
+    padding: 10px;
+}
+.signupbox{
+    margin-top: 10px;
+    width: 600px;
+    margin-left: 50px;
+}
+.biru{
+    margin-left: 250px;
+    height: 30px;
+    background-color: rgb(79, 79, 255);
+    border-radius: 5px;
+    border: 1px solid rgb(79, 79, 255);
+    color: white;
+}
+.garis{
+    margin-top: 30px;
+    width: 100%;
+}
+.options3 a{
+    font-size: 10pt;
+    color: black;
+    text-decoration: none;
+}
+.options3 li{
+    list-style-type: none;
+    margin: 20px;
+    display: inline;
+}
+.options4 a{
+    font-size: 10pt;
+    color: rgb(181, 181, 181);
+    text-decoration: none;
+}
+.options4 li{
+    list-style-type: none;
+    margin: 20px;
+    display: inline;
+}
+.options4{
+    margin-top: -25px;
+}

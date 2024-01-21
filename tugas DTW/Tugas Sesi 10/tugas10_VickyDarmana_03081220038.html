@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>PRISMAIL</h1>
+        <h2>Mendaftar pada PRISMail</h2>
+    </div>
+
+    <div class="container">
+        <h3>Data Dasar</h3>
+        <div class="data">
+            <label for="Register[Username]">Nama Lengkap</label>
+            <input type="text" name="Register[Username]" id="RegisterUsername" required>
+        </div>
+        <div class="data">
+            <label for="Register[email]">ID yang diinginkan</label>
+            <input type="email" id="RegisterEmail" required>
+        </div>
+        <div class="data">
+            <label for="Register[Password]">Password</label> 
+            <input type="password" name="Register[Password]"
+                id="RegisterPassword" required>
+        </div>
+        <div class="data">
+            <label for="Register[PasswordConfirm]">Ulangi Password</label>
+            <input type="PasswordConfirm" name="Register[PasswordConfirm]" id="RegisterPasswordConfirm" required>
+        </div>
+        </fieldset>
+
+        <fieldset id="SelfInfo">
+            <h3>Data diri</h3>
+            <div class="data">
+                <label for="Register[Birthday]">Tanggal Lahir</label>
+                <input type="text" name="Register[Birthday]" id="RegisterBirthday]">
+            </div>
+            <div class="data">
+                <label for="Register[Sex]">Jenis Kelamin</label>
+                <input type="radio" name="Gender" value="Male">Pria
+                <input type="radio" name="Gender" value="Female">Wanita
+            </div>
+            <div class="list">
+                <legend>Bahasa yang dikuasai</legend>
+                <select name="Bahasa">
+                    <option value=""> Indonesia </option>
+                    <option value=""> Inggris </option>
+                    <option value=""> Mandarin </option>
+                    <option value=""> Prancis </option>
+                    <option value=""> Jerman </option>
+                    <option value=""> Latin </option>
+                    <option value=""> Arab </option>
+                    <option value=""> Ibrani </option>
+                </select>
+            </div>
+            <div class="list">
+                <legend>Bahasa yang diinginkan</legend>
+                <select name="pilih Bahasa">
+                    <option value=""> Pilih Bahasa </option>
+                </select>
+            </div>
+            <div class="list">
+                <legend>Negara</legend>
+                <select name="Negara">
+                    <option value=""> Pilih Negara </option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+        <h3>Informasi Tambahan (untuk membantu jika gagal login)</h3>
+        <div class="data">
+            <label for="Register[PhoneNumber]">Nomor Telepon</label>
+                <input type="PhoneNumber" name="Register[PhoneNumber]" id="RegisterPhoneNumber">
+        </div>
+        <div class="data">
+            <label for="Register[email]">Email alternatif</label>
+            <input type="email" name="Register[email]" id="RegisterEmail">
+        </div>
+    </fieldset>
+
+        <fieldset id="FormAction">
+            <legend>Selesai mengisikan form?</legend>
+            <input type="reset" value="Hapus Isian">
+            <input type="submit" value="Daftar di PRISMail!">
+        </fieldset>
+        </form>
+
+    </div>
+</body>
+
+</html>

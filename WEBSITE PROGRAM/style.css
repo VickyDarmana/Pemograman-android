@@ -1,0 +1,23 @@
+p {
+    color: greenyellow;
+}
+
+h1 {
+   color: blue;
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    padding-left: 290px;
+}
+
+ol{
+    color: rgb(47, 193, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tes{
+    background-color: black;
+}

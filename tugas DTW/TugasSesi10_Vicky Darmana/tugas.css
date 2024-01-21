@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(asset/Montserrat-Regular.otf) format('truetype');
+}
+
+.col1, .col2, .col3,
+.col4, .col5, .col6, .col7, 
+.col8, .col9, .col10, .col11, .col12 {
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0 10px 0 10px;
+}
+
+.col1 {
+    width: 60px;
+}
+
+.col2 {
+    width: 140px;
+}
+
+.col3 {
+    width: 220px;
+}
+
+.col4 {
+    width: 300px;
+}
+
+.col5 {
+    width: 380px;
+}
+
+.col6 {
+    width: 460px;
+}
+
+.col7 {
+    width: 540px;
+}
+
+.col8 {
+    width: 620px;
+}
+
+.col9 {
+    width: 700px;
+}
+
+.col10 {
+    width: 780px;
+}
+
+.col11 {
+    width: 860px;
+}
+
+.col12 {
+    width: 940px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    color: blue;
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 0;
+    float: left;
+    
+}
+
+.header ul {
+    float: left;
+}
+
+.header ul li {
+    list-style-type: none;
+    margin: 0 20px;
+    float: left;
+}
+
+.header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(1, 1, 189);
+}
+
+.hratas {
+    height: 1.5px;
+    background-color: rgb(1, 1, 189);
+}
+
+h2 {
+    color: blue;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+}
+
+video {
+    width: 70%;
+}
+
+.more {
+    color: rgb(1, 1, 189);
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+
+.videokecil img {
+    width: 130px;
+    height: 90px;
+}
+
+.videokecil {
+    color: rgb(1, 1, 189);
+    text-align: center;
+    border: 2px solid rgb(1, 1, 189);
+    margin: 0;
+    padding: 3px;
+}
+
+.videokecil figcaption {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+h3 {
+    color: blue;
+    font-size: 2rem;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bawah {
+    border: 1px solid rgb(201, 201, 201);
+    box-shadow: .5px 1px 2px rgb(189, 189, 189);
+    padding: 5px;
+    margin: 0;
+}
+
+.bawah h4 {
+    color: grey;
+}
+
+.bawah figcaption {
+    color: grey;
+}
+
+.bawah img{
+    width: 100%;
+}
+
+.hrbawah {
+    height: 2px;
+    background-color:rgb(1, 1, 189);
+    width: 960px;
+    margin: 40px 0 30px 0;
+}
+
+.list-bawah ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.list-bawah ul li {
+    list-style-type: none;
+    margin: 0 25px 0 0;
+    float: left;
+}
+
+.list-bawah ul li a {
+    color: rgb(1, 1, 189);
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+
+}

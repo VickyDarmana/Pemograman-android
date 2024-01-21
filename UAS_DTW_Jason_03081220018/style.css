@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    margin-right: 20px;
+    font-size: large;
+    font-size: bold;
+}
+
+.search-bar {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    margin: 0;
+    padding: 8px;
+}
+
+.search-bar button {
+    padding: 8px;
+    background-color: rgb(107, 107, 114);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button {
+    color: blue;
+    margin-left: 20px;
+}
+
+header {
+    background-color: rgb(217, 217, 217);
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.login-box {
+    width: auto;
+    background-color: grey;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.signup-box {
+    width: 45%;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    margin-right: 10px;
+    font-size: 14px;
+    width: 80px;
+}
+
+.input-group input {
+    padding: 6px;
+    font-size: 14px;
+    max-width: 50%;
+}
+
+.remember-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+}
+
+.remember-group input {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center; 
+}
+
+.buttons input {
+    margin-right: 10px;
+}
+
+.blue-button {
+    background-color: rgb(60, 255, 0);
+    color: white;
+    border: none;
+    padding: 6px;
+}
+
+.small-button {
+    padding: 5px;
+}
+
+
+.buttons input[type="reset"],
+.buttons input[type="submit"],
+.signup-box .buttons input[type="submit"] {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+.sidebar {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.video-category {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.video-category img {
+    width: 50px; /* Atur lebar gambar sesuai kebutuhan */
+    margin-right: 10px;
+}
+
+.video-category p {
+    margin: 0;
+}
